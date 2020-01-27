@@ -1,0 +1,92 @@
+#cont
+{
+	
+
+}
+#login
+{
+	width:400px;
+	padding:10px 10px;
+	padding-bottom: 240px;
+	margin-left:65%;
+	margin-top:100px;
+	margin-bottom:95px;
+	height:180px;
+
+}
+
+
+
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#global {
+    margin: 128px auto;
+    text-align: center;
+}
+
+
+#slideshow-container {
+    position: absolute;
+	margin-top:40px;
+	margin-bottom:0px;
+	height:90%;
+	margin-left:0px;
+    width: 60%;
+   
+    top: 0;
+    left: 0;
+    z-index: -10;
+   
+}
+
+#slideshow {
+    width: 90%;
+    height: 95%;
+    opacity: 1;
+    transition: opacity 1s;
+}
+#slideshow.fadeOut {
+    opacity: 0;
+}
+
+.slideshow-image {
+    display: none;
+}
